@@ -26,11 +26,11 @@ for item in test_data:
     special_chars = [',', '.', '"', ':', ')', '(', '-', '!', '?', '|', ';', "'", '$', '&', '/', '[', ']', '>', '%', '=',
                      '#', '*', '+', '\\', '@', '_  ']
     for sp in special_chars:
-        if punct in text:
-            text = text.replace(punct, ' ')
+        if sp in text:
+            text = text.replace(sp, ' ')
 
     # Remove digits
-    text = re.sub("\d", " " ,text)
+    text = re.sub("\d", " ", text)
 
     # To lower case
     text = text.lower()
