@@ -1,0 +1,3 @@
+This is a popular dataset, combining 160,000 tweets with emoticons pre-removed. The dataset was collected using the Twitter API for use in the paper:
+Go, A., Bhayani, R. and Huang, L., 2009. Twitter sentiment classification using distant supervision. CS224N Project Report, Stanford, 1(12).
+The data is formatted under six fields, including polarity, tweet ID, date, query username and the text of the tweet. You’ll find the dataset data is instantly downloadable for use and doesn’t require you to fill in any forms or register to access it.
