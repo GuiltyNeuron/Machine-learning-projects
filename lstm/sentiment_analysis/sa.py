@@ -56,7 +56,4 @@ test_labels = test.iloc[:, 0:1].values
 test_data_processed = process_txt(test_data)
 train_data_processed = process_txt(train_data)
 
-print(test_data_processed)
-
-
 
